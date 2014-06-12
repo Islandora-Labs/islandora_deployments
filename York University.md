@@ -40,6 +40,25 @@ YUDL is deployed on a single virtual machine, and the Fedora data directory is d
 * PHP memory limit: 8192M
 * Tesseract:  leptonica-1.69 libgif 4.1.6 : libjpeg 8b : libpng 1.2.46 : libtiff 3.9.5 : zlib 1.2.3.4
 
+## Fedora XACML policies:
+
+```
+repository-policies
+├── default
+│   ├── deny-reloadPolicies-if-not-localhost.xml
+│   ├── permit-anything-to-administrator.xml
+│   ├── permit-apia-unrestricted.xml
+│   ├── permit-dsstate-check-unrestricted.xml
+│   ├── permit-oai-unrestricted.xml
+│   ├── permit-serverStatus-unrestricted.xml
+│   └── readme.txt
+└── islandora
+    ├── permit-apim-to-authenticated-user.xml
+    ├── permit-getDatastreamHistory-unrestricted.xml
+    ├── permit-getDatastream-unrestricted.xml
+    └── permit-upload-to-authenticated-user.xml
+```
+
 ## Drupal Modules:
 
 * advanced_help
