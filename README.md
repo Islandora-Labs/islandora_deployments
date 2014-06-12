@@ -50,7 +50,8 @@ Brief overview of the setup. Is it on a single machine, or multiple machines. Th
 
 Tree output of your repository-policies directory (`tree /path/to/repository-policies`).
 
-````
+CODEBLOCK
+
 repository-policies
 ├── default
 │   ├── deny-reloadPolicies-if-not-localhost.xml
@@ -65,7 +66,6 @@ repository-policies
     ├── permit-getDatastreamHistory-unrestricted.xml
     ├── permit-getDatastream-unrestricted.xml
     └── permit-upload-to-authenticated-user.xml
-````
 
 ## Drupal Modules:
 
