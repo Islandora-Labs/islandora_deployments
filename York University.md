@@ -23,6 +23,7 @@ YUDL is deployed on a single virtual machine, and the Fedora data directory is d
 * Drupal: 7.28
 * ffmpeg: 1.1.4
 * FITS: 0.8.0
+* Islandora: HEAD
 * Java: 1.7 (Oracle)
 * jQuery: 1.8.2
 * jQuery UI: 1.10.2
