@@ -5,7 +5,7 @@
 YUDL is deployed on a single virtual machine, and the Fedora data directory is deployed to a 2T NFS mount.
 
 * Ubuntu 12.04.02 LTS x64
-* 4 CPUs
+* 4 CPUs (4 virtual cores)
 * 24G RAM
 
 ## Tomcat webapps:
@@ -37,7 +37,7 @@ YUDL is deployed on a single virtual machine, and the Fedora data directory is d
 ## Settings:
 
 * ffmpeg: --prefix=/usr/local/stow/ffmpeg-1.1.4 --enable-gpl --enable-version3 --enable-nonfree --enable-postproc --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libdc1394 --enable-libfaac --enable-libgsm --enable-libmp3lame --enable-libopenjpeg --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxvid
-* JAVA_OPTS="$DEBUG -Djava.awt.headless=true -Xmx9000M -Xms9000M -XX:MaxPermSize=256M -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:ParallelGCThreads=2 -Dkakadu.home=$KAKADU_HOME -Djava.library.path=$LIBPATH/$PLATFORM $KAKADU_LIBRARY_PATH"
+* JAVA_OPTS="$DEBUG -Djava.awt.headless=true -Xmx14g -Xms10g -XX:MaxPermSize=512M -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:ParallelGCThreads=4 -Dkakadu.home=$KAKADU_HOME -Djava.library.path=$LIBPATH/$PLATFORM $KAKADU_LIBRARY_PATH"
 * PHP memory limit: 8192M
 * Tesseract:  leptonica-1.69 libgif 4.1.6 : libjpeg 8b : libpng 1.2.46 : libtiff 3.9.5 : zlib 1.2.3.4
 
@@ -90,6 +90,7 @@ repository-policies
 * islandora_marcxml
 * islandora_ntriples
 * islandora_oai
+* islandora_object_lock
 * islandora_ocr
 * islandora_openseadragon
 * islandora_paged_content
@@ -115,6 +116,7 @@ repository-policies
 * islandora_xacml_editor
 * islandora_xml_forms
 * islandora_xmlsitemap
+* islandora_xquery
 * jquery_update
 * ldap
 * libraries
@@ -134,7 +136,6 @@ repository-policies
 * smart_ip
 * smtp
 * subpathauto
-* superfish
 * token
 * variable
 * views
