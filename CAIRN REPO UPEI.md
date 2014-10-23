@@ -11,14 +11,17 @@ The CAIRN Repository is deployed on a Blade server, and the Fedora data director
 ## Tomcat webapps:
 
 * Adore-Djatoka
+* Apache Stanbol
 * Fedora
 * Fedora GSearch
 * Solr
+* Taverna
 
 ## Software versions:
 
 * Adore-Djatoka: 1.1
 * Apache: 2.4.7 (Ubuntu)
+* Apache Stanbol: 
 * Drupal: 7.32
 * PHP: 5.5.9-1ubuntu4.4
 * Islandora: 7.x-1.4
@@ -29,6 +32,7 @@ The CAIRN Repository is deployed on a Blade server, and the Fedora data director
 * Fedora GSearch: 2.7
 * MySQL: 5.5.40-0ubuntu0.14.04.1
 * Solr: 4.2.0
+* Taverna: 2.5
 * Tomcat: 7.0.55
 
 ## Settings:
@@ -59,7 +63,7 @@ repository-policies
 
 ## Drupal Modules:
 
-*
+* google_analytics
 * imagemagick
 * islandora
 * islandora_bagit
