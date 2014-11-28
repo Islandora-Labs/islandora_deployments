@@ -101,6 +101,8 @@ repository-policies
 
 ## Microservices Server
 
+* Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-32-generic x86_64)
+
 ### Tomcat webapps:
 
 * Apache Stanbol
@@ -111,4 +113,9 @@ repository-policies
 * Apache Stanbol: 
 * Taverna: 2.5
 * Tomcat: 7.0.55
-
+* tesseract: 3.03
+* java: 1.7.0_67
+* ImageMagick: 6.7.7-10
+* ffmpeg: 1.1.4
+* Ghostscript: 9.10
+* 
