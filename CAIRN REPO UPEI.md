@@ -8,24 +8,33 @@ The CAIRN Repository is deployed on a Blade server, and the Fedora data director
 * 24 processors (Intel(R) Xeon(R) CPU X5650  @ 2.67GHz)
 * 48G RAM
 
-## Tomcat webapps:
+## Tomcat webapps (Islandora/Fedora Server):
 
 * Adore-Djatoka
-* Apache Stanbol
 * Fedora
 * Fedora GSearch
 * Solr
+
+## Tomcat webapps (Microservices Server):
+
+* Apache Stanbol
 * Taverna
 
-## Software versions:
+## Software versions (Islandora/Fedora Server):
 
 * Adore-Djatoka: 1.1
 * Apache: 2.4.7 (Ubuntu)
-* Apache Stanbol: 
 * Drupal: 7.32
 * PHP: 5.5.9-1ubuntu4.4
 * Islandora: 7.x-1.4
 * Java: 1.7.0_51 (Oracle)
+* 
+
+
+## Software versions (Microservices Server):
+
+* Apache Stanbol: 
+
 * ? jQuery: 1.8.2
 * ? jQuery UI: 1.10.2
 * Fedora: 3.8.0
@@ -37,7 +46,7 @@ The CAIRN Repository is deployed on a Blade server, and the Fedora data director
 
 ## Settings:
 
-* JAVA_OPTS=-Xms1024m -Xmx1024m -XX:MaxPermSize=512m -XX:+CMSClassUnloadingEnabled -Djavax.net.ssl.trustStore=/usr/local/fedora/server/truststore -Djavax.net.ssl.trustStorePassword=tomcat -Dcom.sun.management.jmxremote=true
+* JAVA_OPTS=-Xms2056m -Xmx4096m -XX:MaxPermSize=512m -XX:+CMSClassUnloadingEnabled -Djavax.net.ssl.trustStore=/usr/local/fedora/server/truststore -Djavax.net.ssl.trustStorePassword=tomcat -Dcom.sun.management.jmxremote=true
 * PHP memory limit: 500M
 
 ## Fedora XACML policies:
