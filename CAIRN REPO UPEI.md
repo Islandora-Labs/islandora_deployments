@@ -27,21 +27,12 @@ The CAIRN Repository is deployed on a Blade server, and the Fedora data director
 * PHP: 5.5.9-1ubuntu4.4
 * Islandora: 7.x-1.4
 * Java: 1.7.0_51 (Oracle)
-* 
-
-
-### Software versions (Microservices Server):
-
-* Apache Stanbol: 
-
 * ? jQuery: 1.8.2
 * ? jQuery UI: 1.10.2
 * Fedora: 3.8.0
 * Fedora GSearch: 2.7
 * MySQL: 5.5.40-0ubuntu0.14.04.1
-* Solr: 4.2.0
-* Taverna: 2.5
-* Tomcat: 7.0.55
+* Solr: 4.2.0 
 
 ### Settings:
 
@@ -114,4 +105,10 @@ repository-policies
 
 * Apache Stanbol
 * Taverna
+
+### Software versions (Microservices Server):
+
+* Apache Stanbol: 
+* Taverna: 2.5
+* Tomcat: 7.0.55
 
