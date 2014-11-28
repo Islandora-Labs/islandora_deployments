@@ -4,23 +4,22 @@
 
 The CAIRN Repository is deployed on a Blade server, and the Fedora data directory is deployed to a 2T Fibre Channel SAN mount.  All derivate processing and the associated applications (ImageMagick, Tesseract, FITS, LAME, FFmpeg,Ghostscript) are deployed on a separate dedicated processing Blade running UPEI's [PHP Microservices](https://github.com/roblib/php_listeners). The microservices listen for messages from Fedora's JMS and Taverna workflows are triggered based on the messages received. Review the [wiki](https://github.com/roblib/php_listeners/wiki) for further documentation..
 
+# Servers
+
+## Islandora/Fedora Server
+
 * Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-32-generic x86_64)
 * 24 processors (Intel(R) Xeon(R) CPU X5650  @ 2.67GHz)
 * 48G RAM
 
-## Tomcat webapps (Islandora/Fedora Server):
+### Tomcat webapps (Islandora/Fedora Server):
 
 * Adore-Djatoka
 * Fedora
 * Fedora GSearch
 * Solr
 
-## Tomcat webapps (Microservices Server):
-
-* Apache Stanbol
-* Taverna
-
-## Software versions (Islandora/Fedora Server):
+### Software versions (Islandora/Fedora Server):
 
 * Adore-Djatoka: 1.1
 * Apache: 2.4.7 (Ubuntu)
@@ -31,7 +30,7 @@ The CAIRN Repository is deployed on a Blade server, and the Fedora data director
 * 
 
 
-## Software versions (Microservices Server):
+### Software versions (Microservices Server):
 
 * Apache Stanbol: 
 
@@ -44,12 +43,12 @@ The CAIRN Repository is deployed on a Blade server, and the Fedora data director
 * Taverna: 2.5
 * Tomcat: 7.0.55
 
-## Settings:
+### Settings:
 
 * JAVA_OPTS=-Xms2056m -Xmx4096m -XX:MaxPermSize=512m -XX:+CMSClassUnloadingEnabled -Djavax.net.ssl.trustStore=/usr/local/fedora/server/truststore -Djavax.net.ssl.trustStorePassword=tomcat -Dcom.sun.management.jmxremote=true
 * PHP memory limit: 500M
 
-## Fedora XACML policies:
+### Fedora XACML policies:
 
 ```
 repository-policies
@@ -70,7 +69,7 @@ repository-policies
     └── permit-upload-to-authenticated-user.xml
 ```
 
-## Drupal Modules:
+### Drupal Modules:
 
 * google_analytics
 * imagemagick
@@ -108,3 +107,11 @@ repository-policies
 * pathauto
 * php_lib
 * xmlsitemap
+
+## Microservices Server
+
+### Tomcat webapps:
+
+* Apache Stanbol
+* Taverna
+
