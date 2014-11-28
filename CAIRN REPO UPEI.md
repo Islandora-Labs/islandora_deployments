@@ -35,7 +35,7 @@ The CAIRN Repository is deployed on a Blade server, and the Fedora data director
 ### Settings:
 
 * JAVA_OPTS=-Xms2056m -Xmx4096m -XX:MaxPermSize=512m -XX:+CMSClassUnloadingEnabled -Djavax.net.ssl.trustStore=/usr/local/fedora/server/truststore -Djavax.net.ssl.trustStorePassword=tomcat -Dcom.sun.management.jmxremote=true
-* PHP memory limit: 500M
+* PHP memory limit: 5000M
 
 ### Fedora XACML policies:
 
@@ -116,4 +116,4 @@ repository-policies
 * ImageMagick: 6.7.7-10
 * ffmpeg: 1.1.4
 * Ghostscript: 9.10
-* 
+* PHP Microservices
