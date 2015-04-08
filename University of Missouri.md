@@ -1,7 +1,5 @@
 # [University of Missouri System](https://dl.mospace.umsystem.edu)
 
-# [Name of repository](https://example.sample)
-
 ## Overview:
 
 University of Missouri System Digital Library's production environment is on a bare metal machine, with a development/staging environment on a virtual machine.
@@ -46,24 +44,24 @@ CODEBLOCK
 
 repository-policies
 +-- default
-¦   +-- deny-reloadPolicies-if-not-localhost.xml
-¦   +-- deny-unallowed-file-resolution.xml
-¦   +-- permit-anything-to-administrator.xml
-¦   +-- permit-apia-unrestricted.xml
-¦   +-- permit-apim-to-authenticated-user.xml
-¦   +-- permit-apim-to-authenticated.xml
-¦   +-- permit-dsstate-check-unrestricted.xml
-¦   +-- permit-getDatastreamHistory-unrestricted.xml
-¦   +-- permit-getDatastream-unrestricted.xml
-¦   +-- permit-oai-unrestricted.xml
-¦   +-- permit-serverStatus-unrestricted.xml
-¦   +-- permit-upload-to-authenticated-user.xml
-¦   +-- readme.txt
+Â¦   +-- deny-reloadPolicies-if-not-localhost.xml
+Â¦   +-- deny-unallowed-file-resolution.xml
+Â¦   +-- permit-anything-to-administrator.xml
+Â¦   +-- permit-apia-unrestricted.xml
+Â¦   +-- permit-apim-to-authenticated-user.xml
+Â¦   +-- permit-apim-to-authenticated.xml
+Â¦   +-- permit-dsstate-check-unrestricted.xml
+Â¦   +-- permit-getDatastreamHistory-unrestricted.xml
+Â¦   +-- permit-getDatastream-unrestricted.xml
+Â¦   +-- permit-oai-unrestricted.xml
+Â¦   +-- permit-serverStatus-unrestricted.xml
+Â¦   +-- permit-upload-to-authenticated-user.xml
+Â¦   +-- readme.txt
 +-- islandora_policies
-¦   +-- permit-apim-to-authenticated-user.xml
-¦   +-- permit-getDatastreamHistory-unrestricted.xml
-¦   +-- permit-getDatastream-unrestricted.xml
-¦   +-- permit-upload-to-authenticated-user.xml
+Â¦   +-- permit-apim-to-authenticated-user.xml
+Â¦   +-- permit-getDatastreamHistory-unrestricted.xml
+Â¦   +-- permit-getDatastream-unrestricted.xml
+Â¦   +-- permit-upload-to-authenticated-user.xml
 
 ## Drupal Modules:
 
