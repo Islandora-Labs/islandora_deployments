@@ -31,17 +31,9 @@ University of Missouri System Digital Library's production environment is on a b
 
 ## Settings:
 
-* Listing on settings/configurations
-* that you use.
-* Example:
-* ffmpeg: --prefix=/usr/local/stow/ffmpeg-1.1.4 --enable-gpl --enable-version3 --enable-nonfree --enable-postproc --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libdc1394 --enable-libfaac --enable-libgsm --enable-libmp3lame --enable-libopenjpeg --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxvid
-* JAVA_OPTS:"$DEBUG -Djava.awt.headless=true -Xms12288M -Xmx12288M -XX:MaxPermSize=512M -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:ParallelGCThreads=4 -Dkakadu.home=$KAKADU_HOME -Djava.library.path=$LIBPATH/$PLATFORM $KAKADU_LIBRARY_PATH"
-* PHP memory limit: 8192M
-* Tesseract:  leptonica-1.69 libgif 4.1.6 : libjpeg 8b : libpng 1.2.46 : libtiff 3.9.5 : zlib 1.2.3.4
-
 ## Fedora XACML policies:
-CODEBLOCK
 
+```
 repository-policies
 +-- default
 ¦   +-- deny-reloadPolicies-if-not-localhost.xml
@@ -62,6 +54,7 @@ repository-policies
 ¦   +-- permit-getDatastreamHistory-unrestricted.xml
 ¦   +-- permit-getDatastream-unrestricted.xml
 ¦   +-- permit-upload-to-authenticated-user.xml
+```
 
 ## Drupal Modules:
 
