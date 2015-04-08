@@ -72,4 +72,10 @@ repository-policies
 * A list of all of
 * Your installed 
 * Drupal modules
+
+## Build Scripts:
+
+* A list of links to GitHub (or other)
+* repositories containing build scripts,
+* deployment scripts, etc., that you use
 ```
