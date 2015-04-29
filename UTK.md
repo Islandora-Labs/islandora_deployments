@@ -75,63 +75,63 @@ repository-policies
 
 ## Drupal Modules:
 
-collection_sort
-colorbox
-ctools
-imagemagick
-islandora
-islandora_batch
-islandora_book_batch
-islandora_bookmark
-islandora_checksum
-islandora_checksum_checker
-islandora_collection_search
-islandora_fits
-islandora_importer
-islandora_internet_archive_bookreader
-islandora_jwplayer
-islandora_oai
-islandora_ocr
-islandora_openseadragon
-islandora_paged_content
-islandora_pdfjs
-islandora_premis
-islandora_solr_facet_pages
-islandora_solr_metadata
-islandora_solr_search
-islandora_solr_views
-islandora_solution_pack_audio
-islandora_solution_pack_book
-islandora_solution_pack_collection
-islandora_solution_pack_compound
-islandora_solution_pack_image
-islandora_solution_pack_large_image
-islandora_solution_pack_pdf
-islandora_solution_pack_video
-islandora_videojs
-islandora_xacml_editor
-islandora_xml_forms
-libraries
-objective_forms
-php_lib
-piwik
-simple_ldap
-views
+* collection_sort
+* colorbox
+* ctools
+* imagemagick
+* islandora
+* islandora_batch
+* islandora_book_batch
+* islandora_bookmark
+* islandora_checksum
+* islandora_checksum_checker
+* islandora_collection_search
+* islandora_fits
+* islandora_importer
+* islandora_internet_archive_bookreader
+* islandora_jwplayer
+* islandora_oai
+* islandora_ocr
+* islandora_openseadragon
+* islandora_paged_content
+* islandora_pdfjs
+* islandora_premis
+* islandora_solr_facet_pages
+* islandora_solr_metadata
+* islandora_solr_search
+* islandora_solr_views
+* islandora_solution_pack_audio
+* islandora_solution_pack_book
+* islandora_solution_pack_collection
+* islandora_solution_pack_compound
+* islandora_solution_pack_image
+* islandora_solution_pack_large_image
+* islandora_solution_pack_pdf
+* islandora_solution_pack_video
+* islandora_videojs
+* islandora_xacml_editor
+* islandora_xml_forms
+* libraries
+* objective_forms
+* php_lib
+* piwik
+* simple_ldap
+* views
 
 ## Drupal Libraries:
 
-bookreader
-colorbox
-flexslider
-JAIL
-jquery
-jquery.cycle
-jstree
-jwplayer
-openseadragon
-pdfjs
-superfish
-tuque
-utk
-video-js
+* bookreader
+* colorbox
+* flexslider
+* JAIL
+* jquery
+* jquery.cycle
+* jstree
+* jwplayer
+* openseadragon
+* pdfjs
+* superfish
+* tuque
+* utk
+* video-js
 
