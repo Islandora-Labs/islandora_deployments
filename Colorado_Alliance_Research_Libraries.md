@@ -5,7 +5,7 @@ The Colorado Alliance of Research Libraries has hosted a consortial multisite Is
 
 ## Member Sites using Islandora 7
 * [Digital UW - University of Wyoming] (http://uwyo.coalliance.org)
-* [Digital UNC - University of Northern Colorado) (http://digitalunc.coalliance.org)
+* [Digital UNC - University of Northern Colorado] (http://digitalunc.coalliance.org)
 
 ## Overview:
 
@@ -45,8 +45,7 @@ Java(TM) SE Runtime Environment (build 1.7.0_51)
 
 ### Fedora XACML policies
 
-CODEBLOCK
-
+```
 repository-policies
 ├── default
 │   ├── deny-reloadPolicies-if-not-localhost.xml
@@ -62,6 +61,7 @@ repository-policies
     ├── permit-getDatastreamHistory-unrestricted.xml
     ├── permit-getDatastream-unrestricted.xml
     └── permit-upload-to-authenticated-user.xml
+```
 
 ## Drupal VM
 
