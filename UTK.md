@@ -19,10 +19,10 @@ The Islandora repo, "digital", is deployed on a Dell PowerEdge 715 rack mount se
 ## Software versions:
 
 * Adore-Djatoka: 1.1
-* Apache: 2.4.6-19
+* Apache: 2.4.6-31
 * Drupal: 7.35
 * ffmpeg: git-2015-01-27-3c831fb
-* FITS: 0.8.1
+* FITS: 0.8.5
 * Islandora: 7.x-1.4
 * Java: 1.7 (Oracle)
 * jQuery: 
@@ -31,7 +31,7 @@ The Islandora repo, "digital", is deployed on a Dell PowerEdge 715 rack mount se
 * Fedora GSearch: 2.7
 * MariaDB: 5.5.41
 * Solr: 4.2.0
-* Tesseract: 3.03
+* Tesseract: 3.02.02
 * Tomcat: 6.0.35
  
 
@@ -81,11 +81,13 @@ repository-policies
 * imagemagick
 * islandora
 * islandora_batch
+* islandora_binary_object
 * islandora_book_batch
 * islandora_bookmark
 * islandora_checksum
 * islandora_checksum_checker
 * islandora_collection_search
+* islandora_collection_sort
 * islandora_fits
 * islandora_importer
 * islandora_internet_archive_bookreader
@@ -94,8 +96,10 @@ repository-policies
 * islandora_ocr
 * islandora_openseadragon
 * islandora_paged_content
+* islandora_paged_tei_seadragon
 * islandora_pdfjs
 * islandora_premis
+* islandora_rest
 * islandora_solr_facet_pages
 * islandora_solr_metadata
 * islandora_solr_search
@@ -106,6 +110,8 @@ repository-policies
 * islandora_solution_pack_compound
 * islandora_solution_pack_image
 * islandora_solution_pack_large_image
+* islandora_solution_pack_manuscript
+* islandora_solution_pack_newspaper
 * islandora_solution_pack_pdf
 * islandora_solution_pack_video
 * islandora_videojs
@@ -126,10 +132,10 @@ repository-policies
 * JAIL
 * jquery
 * jquery.cycle
-* jstree
+* jstree 3.1.1
 * jwplayer
-* openseadragon
-* pdfjs
+* openseadragon 1.1.1
+* pdfjs 0.8.0
 * superfish
 * tuque
 * utk
