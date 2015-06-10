@@ -27,7 +27,7 @@ YUDL is deployed on a single bare metal machine, and the Fedora data directory i
 * Java: 1.7 (Oracle)
 * jQuery: 1.10.
 * jQuery UI: 1.10.2
-* Fedora: 3.8.0
+* Fedora: 3.8.1-RC1
 * Fedora GSearch: HEAD
 * MySQL: 5.5.40-0ubuntu0.14.04.1
 * Open Wayback: 2.0.0.BETA.2
