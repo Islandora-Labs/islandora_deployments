@@ -19,9 +19,9 @@ University of Missouri System Digital Library's production environment is on a b
 
 * Adore-Djatoka: 1.1
 * Apache: 2.2.15
-* Drupal: 7.36
+* Drupal: 7.39
 * ffmpeg: 1.1.1
-* Islandora: HEAD
+* Islandora: 7.x-1.5 (CUSTOM) 
 * Java: 1.6.0_38
 * Fedora: 3.6.2
 * MySQlL: 5.1.73
