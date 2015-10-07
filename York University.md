@@ -4,7 +4,7 @@
 
 YUDL is deployed on a single bare metal machine, and the Fedora data directory is symlinked to a 7T NFS mount.
 
-* Ubuntu 14.04.01 LTS x64
+* Ubuntu 14.04.02 LTS x64
 * 8 CPUs
 * 64G RAM
 
@@ -13,6 +13,7 @@ YUDL is deployed on a single bare metal machine, and the Fedora data directory i
 * Adore-Djatoka
 * Fedora
 * Fedora GSearch
+* Hawtio
 * Open Wayback
 * Solr
 
@@ -20,12 +21,12 @@ YUDL is deployed on a single bare metal machine, and the Fedora data directory i
 
 * Adore-Djatoka: 1.1
 * Apache: 2.4.7 
-* Drupal: 7.35
+* Drupal: 7.39
 * ffmpeg: 1.1.4
-* FITS: 0.8.0
+* FITS: 0.8.5
 * Islandora: HEAD
 * Java: 1.7 (Oracle)
-* jQuery: 1.10.
+* jQuery: 1.10
 * jQuery UI: 1.10.2
 * Fedora: 3.8.1-RC1
 * Fedora GSearch: HEAD
@@ -33,7 +34,7 @@ YUDL is deployed on a single bare metal machine, and the Fedora data directory i
 * Open Wayback: 2.0.0.BETA.2
 * Solr: 4.2.0
 * Tesseract: 3.2.02
-* Tomcat: 7
+* Tomcat: 7.0.52.0
 
 ## Settings:
 
@@ -105,6 +106,8 @@ repository-policies
 * islandora_solution_pack_book
 * islandora_solution_pack_collection
 * islandora_solution_pack_compound
+* islandora_solution_pack_disk_image
+* islandora_solution_pack_entities
 * islandora_solution_pack_image
 * islandora_solution_pack_large_image
 * islandora_solution_pack_newspaper
@@ -140,7 +143,9 @@ repository-policies
 * tabtamer
 * token
 * variable
+* uofm_maintenance_scripts
 * views
+* views_bootstrap
 * views_infinite_scroll
 * views_slideshow
 * webform
