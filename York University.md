@@ -2,7 +2,7 @@
 
 ## Overview:
 
-YUDL is deployed on a single bare metal machine, and the Fedora data directory is symlinked to a 7T NFS mount.
+YUDL is deployed on a single bare metal machine, and the Fedora data directory is symlinked to a 24TB NFS mount.
 
 * Ubuntu 14.04.02 LTS x64
 * 8 CPUs
