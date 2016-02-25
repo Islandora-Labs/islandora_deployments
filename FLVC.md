@@ -49,7 +49,7 @@ Dev and Test on 4 different VMs
 * php.ini: memory_limit = 512M
 
 ## Drupal Modules:
-
+```
 * Chaos tool suite          Chaos tools (ctools)                                               Module  Enabled        7.x-1.9        
 * Core                      Aggregator (aggregator)                                            Module  Enabled        7.41           
 * Core                      Block (block)                                                      Module  Enabled        7.41           
@@ -143,7 +143,7 @@ Dev and Test on 4 different VMs
 * Core                      Bartik (bartik)                                                    Theme   Enabled        7.41           
 * Core                      Seven (seven)                                                      Theme   Enabled        7.41           
 * Other                     Islandoratheme (islandoratheme)                                    Theme   Enabled        7.x-3.0-rc1    
-
+```
 ## XACML policies
 
 ```
