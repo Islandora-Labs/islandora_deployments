@@ -146,7 +146,7 @@ Dev and Test on 4 different VMs
 
 ## XACML policies
 
-CODEBLOCK
+```
 
 /usr/local/fedora/data/fedora-xacml-policies/repository-policies/
 ├── default
@@ -168,3 +168,4 @@ CODEBLOCK
 ├── disable_all_writes.xml.disabled
 ├── permit-anyone-upload.xml
 └── permit-apim-to-everyone.xml
+```
