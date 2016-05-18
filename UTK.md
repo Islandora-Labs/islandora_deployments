@@ -2,12 +2,12 @@
 
 ## Overview:
 
-The Islandora repo, "digital", is deployed on a Dell PowerEdge 715 rack mount server.
+The Islandora repo, "digital", is deployed on a Dell R530 rack mount server.
 
 * Red Hat Enterprise Linux 7.1 x64
-* 24 cores
-* 64G RAM
-* 4TB RAID
+* 40 cores
+* 128G RAM
+* 2.5TB RAID
 
 A similar test server has the same versions of software.
 
@@ -33,39 +33,43 @@ from these parts of the vagrant install scripts to allow ingests to the main fed
 ## Software versions:
 
 * Adore-Djatoka: 1.1
-* Apache: 2.4.6-31
-* Drupal: 7.39
+* Apache: 2.4.6-40  
+* Drupal: 7.43
+* drush 6.2.0
+* PHP 5.4.16
 * ffmpeg: git-2015-01-27-3c831fb
 * FITS: 0.8.5
 * Islandora: HEAD
-* Java: 1.7 (Oracle)
+* Java: 1.8 (Oracle)
 * jQuery: 
 * jQuery UI: 
 * Fedora: 3.7.1
 * Fedora GSearch: 2.7
-* MariaDB: 5.5.44
+* MariaDB: 5.5.47
 * Solr: 4.2.0
-* Tesseract: 3.02.02
+* Tesseract: 3.04.00 (from Red Hat repo)
+* leptonica 1.72 (from Red Hat repo)
 * Tomcat: 6.0.35
  
 
 ## Settings:
 
 * ffmpeg:  --enable-gpl --enable-nonfree --enable-libmp3lame --enable-libvorbis --enable-libvpx --enable-libx264
-* JAVA_OPTS= -server -Xmx4096m -Xms4096m
- -XX:MaxPermSize=1024m
- -XX:+UseParNewGC
- -XX:+UseConcMarkSweepGC
- -XX:+CMSClassUnloadingEnabled
- -Djavax.net.ssl.trustStore=/vhosts/fedora/server/truststore
- -Djavax.net.ssl.trustStorePassword=tomcat
- -Djava.awt.headless=true
- -Dkakadu.home=/opt/adore-djatoka/bin/Linux-x86-64
- -Djava.library.path=/opt/adore-djatoka/lib/Linux-x86-64
- -DLD_LIBRARY_PATH=/opt/adore-djatoka/lib/Linux-x86-64
+* JAVA_OPTS= -server -Xmn4096M -Xms12288M -Xmx12288M
+  -XX:PermSize=1024m
+  -XX:MaxPermSize=1024m
+  -XX:+UseParNewGC
+  -XX:+UseConcMarkSweepGC
+  -XX:+CMSParallelRemarkEnabled
+  -Djavax.net.ssl.trustStore=/vhosts/fedora/server/truststore
+  -Djavax.net.ssl.trustStorePassword=tomcat
+  -Djava.awt.headless=true
+  -Dkakadu.home=/opt/adore-djatoka/bin/Linux-x86-64
+  -Djava.library.path=/opt/adore-djatoka/lib/Linux-x86-64
+  -DLD_LIBRARY_PATH=/opt/adore-djatoka/lib/Linux-x86-64
+
  
 * PHP memory limit: 4096M
-* Tesseract 3.02.02 : leptonica-1.71  libjpeg 6b : libpng 1.5.13 : libtiff 4.0.3 : zlib 1.2.7 : libwebp 0.3.0
 
 ## Fedora XACML policies:
 ```
@@ -91,20 +95,24 @@ repository-policies
 
 ## Drupal Modules:
 
-* collection_sort
 * colorbox
 * ctools
+* date
+* datepicker
 * devel
-* enitity
+* entity
 * imagemagick
 * islandora
 * islandora_batch
+* islandora_batch_derivative_trigger
 * islandora_binary_object
 * islandora_book_batch
 * islandora_bookmark
 * islandora_checksum
 * islandora_checksum_checker
 * islandora_collection_search
+* islandora_datastream_exporter-7.x
+* islandora_datastream_replace
 * islandora_fits
 * islandora_importer
 * islandora_internet_archive_bookreader
@@ -114,7 +122,7 @@ repository-policies
 * islandora_openseadragon
 * islandora_paged_content
 * islandora_paged_tei_seadragon
-* islandora_piwik
+* islandora_patches
 * islandora_pdfjs
 * islandora_premis
 * islandora_rest
@@ -131,17 +139,21 @@ repository-policies
 * islandora_solution_pack_newspaper
 * islandora_solution_pack_pdf
 * islandora_solution_pack_video
+* islandora_usage_stats
 * islandora_videojs
 * islandora_xacml_editor
 * islandora_xml_forms
+* jquery_update
 * libraries
 * nagios
 * objective_forms
 * php_lib
 * piwik
 * rules
+* securelogin
 * simple_ldap
 * views
+* views_data_export
 
 ## Drupal Libraries:
 
