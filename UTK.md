@@ -35,6 +35,8 @@ from these parts of the vagrant install scripts to allow ingests to the main fed
 * Adore-Djatoka: 1.1
 * Apache: 2.4.6-40  
 * Drupal: 7.43
+* drush 6.2.0
+* PHP 5.4.16
 * ffmpeg: git-2015-01-27-3c831fb
 * FITS: 0.8.5
 * Islandora: HEAD
