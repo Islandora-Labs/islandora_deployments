@@ -91,20 +91,24 @@ repository-policies
 
 ## Drupal Modules:
 
-* collection_sort
 * colorbox
 * ctools
+* date
+* datepicker
 * devel
-* enitity
+* entity
 * imagemagick
 * islandora
 * islandora_batch
+* islandora_batch_derivative_trigger
 * islandora_binary_object
 * islandora_book_batch
 * islandora_bookmark
 * islandora_checksum
 * islandora_checksum_checker
 * islandora_collection_search
+* islandora_datastream_exporter-7.x
+* islandora_datastream_replace
 * islandora_fits
 * islandora_importer
 * islandora_internet_archive_bookreader
@@ -114,7 +118,7 @@ repository-policies
 * islandora_openseadragon
 * islandora_paged_content
 * islandora_paged_tei_seadragon
-* islandora_piwik
+* islandora_patches
 * islandora_pdfjs
 * islandora_premis
 * islandora_rest
@@ -131,17 +135,21 @@ repository-policies
 * islandora_solution_pack_newspaper
 * islandora_solution_pack_pdf
 * islandora_solution_pack_video
+* islandora_usage_stats
 * islandora_videojs
 * islandora_xacml_editor
 * islandora_xml_forms
+* jquery_update
 * libraries
 * nagios
 * objective_forms
 * php_lib
 * piwik
 * rules
+* securelogin
 * simple_ldap
 * views
+* views_data_export
 
 ## Drupal Libraries:
 
