@@ -4,7 +4,7 @@
 
 [System Schematic](UNC_Charlotte.pdf)
 
-UNC Charlotte is deployed on two AWS EC2 servers configured in a master/slave model.
+UNC Charlotte is deployed on two AWS EC2 servers configured in a main/slave model.
 
 Fedora's datastreamStore is mounted on AWS S3 using [YAS3FS](https://github.com/danilop/yas3fs), which also leverages a SSD-based temporary drive for OS-level caching.  "Goldmine.uncc.edu", our public-facing server, mounts the same S3-based Fedora datastreamStore read-only.
 
